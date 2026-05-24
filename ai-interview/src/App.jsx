@@ -24,7 +24,7 @@ const db = getFirestore(app);
 const auth = getAuth(app); 
 
 // 🔴 2. GEMINI AI SETUP
-const API_KEY = "AIzaSyA1K28c4bGiFNYMRJEqYITOmbQhFPFc7bA";
+const API_KEY = "AIzaSyAg0va4qlxsB_vNvmNv_IfYktS3vvx-54w";
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 // 🔴 3. CLOUDINARY SETUP 
